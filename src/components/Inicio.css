@@ -1,0 +1,42 @@
+.banner-container {
+    width: 100%;
+    overflow: hidden;
+  }
+  
+  .banner-image {
+    width: 100%;
+    height: auto;
+  }
+  .welcome-message {
+    text-align: center;
+    font-size: 1.3em;
+    margin-top: 3em;
+  }
+  h1 {
+    font-size: 2.5em;
+    font-weight: bold;
+    margin-top: 1em;
+    text-align: center;
+  }
+
+  .book-card {
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+  }
+  
+  .card-img {
+    height: 200px; /* Ajusta esta altura según tus necesidades */
+    object-fit: cover;
+  }
+  
+  .card-body {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+  }
+  
+  .card-buttons {
+    margin-top: auto;
+  }
+  

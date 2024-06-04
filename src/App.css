@@ -1,0 +1,101 @@
+
+.custom-navbar {
+  background-color: #A21619 !important;
+  font-family: 'Red Hat Display', sans-serif;
+  padding: 30px
+}
+
+.custom-navbar .nav-link,
+.custom-navbar .navbar-brand,
+.custom-navbar .nav-dropdown,
+.custom-navbar .dropdown-item {
+  color: white !important; 
+}
+
+.custom-navbar .nav-link:hover,
+.custom-navbar .dropdown-item:hover {
+  color: #cccccc !important; 
+  font-family: 'Red Hat Display', sans-serif;
+}
+
+.icon {
+  color: #FCD116;
+}
+
+/* App.css */
+.custom-link {
+  background-color: #FCD116;
+  color: white;
+  padding: 10px 20px;
+  text-decoration: none;
+  margin-right: 10px;
+}
+
+.custom-link:hover {
+  background-color: #e5b800;
+  color: white;
+}
+
+#topbar {
+  background: #fff;
+  height: 40px;
+  font-size: 14px;
+  transition: all 0.5s;
+  z-index: 996;
+  justify-content: flex-end;
+  padding: 10px;
+}
+
+#topbar .button {
+  margin-left: 25px;
+  background:  #00678E;
+  color: #fff;
+  padding: 8px 25px;
+  white-space: nowrap;
+  transition: 0.3s;
+  font-size: 14px;
+  display: inline-block;
+}
+
+#topbar .button:hover {
+  background: #0091c5;
+  color: #fff;
+}
+
+#topbar.topbar-scrolled {
+  top: -40px;
+  
+}
+
+#header {
+  background: #fff;
+  transition: all 0.5s;
+  z-index: 997;
+  padding: 15px 0;
+  top: 40px;
+  box-shadow: 0px 2px 15px rgba(25, 119, 204, 0.1);
+}
+
+#header.header-scrolled {
+  top: 0;
+}
+
+#header .logo {
+  font-size: 30px;
+  margin: 0;
+  margin-right: 20px;
+  padding: 0;
+  line-height: 1;
+  font-weight: 700;
+  letter-spacing: 0.5px;
+  font-family: "Poppins", sans-serif;
+}
+
+#header .logo a {
+  color: #2c4964;
+}
+#header .logo img {
+  max-height: 60px;
+  margin: 0;
+  padding: 0;
+}
